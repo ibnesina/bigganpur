@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="shortcut icon" type="x-icon" href="tab-icon.png">
+
+    <title> BigganPur (Best Robotics Instument Selling Website)</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+</head>
+
+<body>
+
+  <!-- Topbar -->
+  <section class="topbar">
+    <div class="menu">
+      <div class="vr"></div>
+      <a href="#"><i class="fa-solid fa-user"> </i> My Profile</a>
+      <div class="vr"></div>
+      <a href="#"><i class="fa-solid fa-heart"></i> Wishlist</a>
+      <div class="vr"></div>
+      <a href="#"><i class="fa-solid fa-code-compare"></i> Compare</a>
+      <div class="vr"></div>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+      <div class="vr"></div>
+      <a href="#"><i class="fa-light fa-bags-shopping"></i> Checkout</a>
+      <div class="vr"></div>
+    </div>
+    <div class="language-currency">
+      <a href="#">Currency: <strong>TAKA</strong></a>
+      <a href="#">Language: <strong>English</strong></a>
+    </div>
+  </section>
+
+  <!-- Header -->
+    <div class="header">
+        <div>
+            <a href="index.html">
+                <img src="bigganpur-logo.jpeg" class="logo" alt="">
+            </a>
+        </div>
+        
+        <div class="search">
+
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit" style="font-size: 20px; margin-left: 0px;"><i class="fa fa-search"></i></button>
+        </div>
+
+        <div class="cart-wishlist">
+            <a href="#">
+                <i style="color: #5f5d5d;" class="fa-sharp fa-regular fa-heart"></i>
+            </a>
+            <a href="#">
+                <i style="color: #5f5d5d;" class="fas fa-cart-plus"></i>
+            </a>
+            <a class="login" href="login.html" style="margin-left: 20px;color: white; background-color: #495873; padding: 10px; border-radius: 6px;">
+              <h5>LOGIN</h5>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Mainbar -->
+    <div class="mainbar">
+        <ul class="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="product-service.html">Project Service</a></li>
+            <li><a href="science-project-courses.html">Science Project Courses</a></li>
+            <li><a href="competetions.html">Competetions</a></li>
+            <li><a href="affiliate.html">Affiliate</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="about-us.html">About US</a></li>
+        </ul>
+    </div>
+
+
+    <!-- Category and Banner -->
+    <div class="category-banner">
+      <!-- Categories-->
+      <div class="Categories">
+        <ul style="background-color: rgb(76, 75, 75); padding: 10px;">
+          <li style="font-size: 20px; color: white; "><i class="fa-solid fa-bars"></i>  Categories</li>
+        </ul>
+        <ul>
+          <li>Robotics Components<i class="fa fa-angle-right" aria-hidden="true"></i>
+            <ul>
+              <li>Digital Logic Design</li>
+              <hr>
+              <li>Electric Circuit</li>
+              <hr>
+              <li>Analog Electric</li>
+              <hr>
+              <li>Junior Design</li>
+              <hr>
+            </ul>
+          </li>
+          <hr>
+          <li>Project Kits<i class="fa fa-angle-right" aria-hidden="true"></i>
+            <ul>
+              <li>Stater Kits</li>
+              <hr>
+              <li>Innovative Kits</li>
+              <hr>
+            </ul>
+          </li>
+          <hr>
+          <li>ICs<i class="fa fa-angle-right" aria-hidden="true"></i>
+            <ul>
+              <li>Digital ICs</li>
+              <hr>
+              <li>Analog ICs</li>
+              <hr>
+            </ul>
+          </li>
+          <hr>
+          <li>Cables<i class="fa fa-angle-right" aria-hidden="true"></i> 
+            <ul>
+              <li>Wires</li>
+              <hr>
+              <li>USB Cables</li>
+              <hr>
+              <li>Connectors</li>
+              <hr>
+            </ul>
+          </li>
+          <hr>
+          <li>Displays</li>
+          <hr>
+          <li>Sensors<i class="fa fa-angle-right" aria-hidden="true"></i> 
+            <ul>
+              <li>Light</li>
+              <hr>
+              <li>Ultrasonic</li>
+              <hr>
+              <li>Gass</li>
+              <hr>
+              <li>Water</li>
+              <hr>
+              <li>Audio</li>
+              <hr>
+            </ul>
+          </li>
+          <hr>
+          <li>Programming Books</li>
+          <hr>
+          <li>Robotics Books</li>
+          <hr>
+
+        </ul>
+
+      </div>   
+
+      <!-- Banner Slider -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="banner2.png" >
+          </div>
+          <div class="swiper-slide">
+            <img src="banner3.jpeg" >
+          </div>
+          <div class="swiper-slide">
+            <img src="banner1.jpeg">
+          </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <img src="fast-delivery.png" alt="">
+        <h5>Delivery within 48 Hours</h5>
+      </div>
+      
+      <div class="fe-box">
+        <img src="free-shiping.jpeg" alt=" ">
+        <h5>FREE SHIP-ON ORDER OVER ৳3000</h5>
+      </div>
+      <div class="fe-box">
+        <img src="24:7.jpeg" alt="" >
+        <h5>24/7 Support</h5>
+      </div>
+      <div class="fe-box">
+        <img src="gift.png" alt="" >
+        <h5 style="margin-top: 10px;">GIFT ON ORDER OVER ৳2500</h5>
+      </div>
+
+    </section>
+
+    <!-- Deals of the Day -->
+    <section id="product1" class="section-p1">
+      <h4 style="color: #156052;">Deals of the Day</h4>
+      <hr>
+      <div class="pro-container">
+        <div class="pro">
+          <a href="single-products.html">
+            <img src="product-image/TP 4056 Battery Charging Module.jpeg" alt="">
+          </a>
+          <div class="des">
+            <span>rokomari</span>
+            <h5>TP 4056 Battery Charging Module</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳212</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/Breadboard.jpg" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>Breadboard (Big)</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳155</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/হাবলুদের জন্য প্রোগ্রামিং.jpeg" alt="">
+          <div class="des">
+            <span>rokomari</span>
+            <h5>হাবলুদের জন্য প্রোগ্রামিং by ঝংকার মাহবুব</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳227</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        
+        <div class="pro">
+          <img src="product-image/প্রোগ্রামিং কনটেস্ট সমস্যা ও সমাধান.jpeg" alt="">
+          <div class="des">
+            <span>rokomari</span>
+            <h5>প্রোগ্রামিং কনটেস্ট সমস্যা ও সমাধান by মো: মাহবুবুল হাসান</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳300</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="product1" class="section-p1">
+      <h4 style="color: #156052;">Featured Products</h4>
+      <hr>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="product-image/arduino uno.png" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>Arduino UNO R3</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳1075.63</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/Bluetooth Controlled Arduino Car Kit.png" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>Bluetooth Controlled Arduino Car Kit</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳2299</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/LCD Display.png" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>LCD Display (20 x 4) with I2C</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳540</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/DC Gear Motor and Wheel.jpeg" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>DC Gear Motor and Wheel</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳164.9</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/4 Channel Relay (5V) .jpeg" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>4 Channel Relay (5V)
+            </h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳239.9</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/HC-SR04 Ultrasonic Sensor.jpeg" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>HC-SR04 Ultrasonic Sensor</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳94.9</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/Robot Car Chassis 4WD (Set).jpeg" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>Robot Car Chassis 4WD (Set)</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳917</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/Breadboard.jpg" alt="">
+          <div class="des">
+            <span>robodoc</span>
+            <h5>Breadboard (Big)</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳155</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Programming and Robotics Books -->
+    <section id="product1" class="section-p1">
+      <h4 style="color: #156052;">Programming and Robotics Books</h4>
+      <hr>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="product-image/হাবলুদের জন্য প্রোগ্রামিং.jpeg" alt="">
+          <div class="des">
+            <span>rokomari</span>
+            <h5>হাবলুদের জন্য প্রোগ্রামিং by ঝংকার মাহবুব</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳227</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/প্রোগ্রামিং কনটেস্ট সমস্যা ও সমাধান.jpeg" alt="">
+          <div class="des">
+            <span>rokomari</span>
+            <h5>প্রোগ্রামিং কনটেস্ট সমস্যা ও সমাধান by মো: মাহবুবুল হাসান</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳300</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/কম্পিউটার প্রোগ্রামিং-প্রথম খণ্ড.jpeg" alt="">
+          <div class="des">
+            <span>rokomari</span>
+            <h5>কম্পিউটার প্রোগ্রামিং-প্রথম খণ্ড by তামিম শাহরিয়ার সুবিন</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳327</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="product-image/কম্পিউটার প্রোগ্রামিং ৩য় খণ্ড.jpeg" alt="">
+          <div class="des">
+            <span>rokomari</span>
+            <h5>কম্পিউটার প্রোগ্রামিং ৩য় খণ্ড by তামিম শাহরিয়ার সুবিন</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>৳320</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>        
+      </div>
+    </section>
+    
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="section-p1">
+      <div class="newstest">
+        <h4>Sign Up For Newsletter</h4>
+        <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="bigganpur-logo.jpeg" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>Khulna University of Engineering and Technology, Khulna</p>
+        <p><strong>Phone: </strong>+8801712441413 / +8801912441413</p>
+        <p><strong>Hours: </strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Status</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">Delivery Status</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My ORDER</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <a href="#"><img src="app-store.png" alt=" "></a>
+          <a href=""><img src="play-store.png" alt=""></a>
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img class="payment" src="payment-gateway.png" alt="">
+      </div>
+      
+      <div class="copyright">
+        <p>© copyright 2023 - www.bigganpur.com</p>
+      </div>
+    </footer>
+
+      
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+      loop: true,
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    });
+    </script>
+</body>
+
+</html>
